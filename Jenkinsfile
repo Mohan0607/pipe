@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("nodeapplication")
+        app = docker.build("mohan0607/nodejenkins")
     }
 
     stage('Test image') {
